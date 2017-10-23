@@ -7,7 +7,18 @@
  *
 **/
 
-
+function createNameObject(name) {
+  nameObj1 = name.split(" ")
+  console.log(nameObj1);
+  var firstName = nameObj1[0]
+  var lastName = nameObj1[1]
+  var fullName = {
+    firstName: firstName,
+    lastName: lastName
+  }
+  console.log(fullName);
+  return fullName
+}
 
 
 
@@ -24,5 +35,5 @@ console.assert(nameObj2.firstName === 'Felipe')
 console.assert(nameObj2.lastName === 'Tortuga')
 
 var nameObj3 = createNameObject("Lupe Maria")
-console.assert(nameObj2.firstName === 'Lupe')
-console.assert(nameObj2.lastName === 'Maria')
+console.assert(nameObj3.firstName === 'Lupe')
+console.assert(nameObj3.lastName === 'Maria')

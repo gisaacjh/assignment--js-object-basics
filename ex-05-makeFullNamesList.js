@@ -7,6 +7,12 @@
  * name.
  *
 **/
+function getFullNames(customersList) {
+  for (i = 0; i < customersList.length; i++) {
+    var 
+    }
+  }
+
 
 
 

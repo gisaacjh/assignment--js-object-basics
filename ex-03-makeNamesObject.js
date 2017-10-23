@@ -18,8 +18,18 @@
  *       set an object's property name.
  *
 */
+function makeNamesObject(nameObj1, nameObj2, nameObj3) {
+  nameObj1.split(" ")
+  var lastName = nameObj1.split(" ")
+  var greatMenObj = {
+    [lastName[0]]: lastName[1],
 
+  var nameObj2.split(" ")
+   
 
+  }
+console.log(greatMenObj);
+}
 
 
 

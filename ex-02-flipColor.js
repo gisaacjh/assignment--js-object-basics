@@ -7,6 +7,18 @@
  * has the value blue, it should change it to red, and
  * vice-versa.
 */
+function flipColor(tileObj) {
+
+    if (tileObj.color === "blue") {
+      tileObj.color = "red"
+    }
+    else {
+      tileObj.color = "blue"
+    }
+}
+// crear una funcion que guarde un objeto
+// iterar sobre el length del objeto
+// crear una condicionante para conmutar el color
 
 
 

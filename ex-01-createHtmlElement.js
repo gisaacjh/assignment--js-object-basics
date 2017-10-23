@@ -13,7 +13,17 @@
  * createHtmlElement(htmlObj)
  *  => '<h1 class="grid small-section">Lorem ipsum dolor sit amet.</h1>'
 */
+var exampleHtmlObj = {
+  element: 'h1',
+  classNames: 'grid small-section',
+  textContent: 'Lorem ipsum dolor sit amet.'
+}
 
+
+function createHtmlElement(exampleHtmlObj) {
+  var htmlString4 = ["<", element, "class= ", classNames, ">", textContent, "</h1>" ]
+  console.log(htmlString4);
+}
 
 
 
